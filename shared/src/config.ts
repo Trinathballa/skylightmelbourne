@@ -319,10 +319,10 @@ export interface Config {
 export const DEFAULT_CONFIG: Config = {
   // Default center: San Francisco International (SFO). Set this to your own
   // location — ideally where you'll be looking up at the ceiling.
-  centerLat: 37.6213,
-  centerLon: -122.379,
-  locationName: "San Francisco International",
-  radiusMiles: 3,
+  centerLat: -37.8136,
+  centerLon: 144.9631,
+  locationName: "Melbourne International Airport",
+  radiusMiles: 30,
   locationProfiles: [],
 
   radioUrl: "http://localhost:8080/data/aircraft.json",
@@ -403,7 +403,7 @@ export const DEFAULT_CONFIG: Config = {
     rtspUrl: "rtsp://{ip}:554/live/av0",
     rtspSubUrl: "rtsp://{ip}:554/live/av1",
     // Default site = the display center; replace with the camera's real spot.
-    site: { lat: 37.6213, lon: -122.379, altM: 0 },
+    site: { lat: -37.8136, lon: 144.9631, altM: 0 },
     limits: {
       panMinDeg: -175,
       panMaxDeg: 175,
